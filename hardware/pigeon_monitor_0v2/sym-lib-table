@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Maduino Zero A9G GPS Tracker v3.3-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Maduino Zero A9G GPS Tracker v3.3-eagle-import.kicad_sym")(options "")(descr ""))
+)
