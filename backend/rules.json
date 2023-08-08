@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": "now < 1722470400000",
+
+    "sessions": { "$sessionId": {
+      ".validate": "$sessionId.matches(/^(202)[3-5](0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])$/)",
+      "pigeons": { "$pigeonId": {
+        ".validate": "$pigeonId.matches(/^[0-9]{1,2}$/)",
+        "measurements": {
+          ".write": "auth !== null && auth.provider === 'anonymous'",
+      		".indexOn": ["timestamp"],
+      		"$measurementKey": {
+      			".validate": "newData.hasChildren(['timestamp', 'lat', 'lon', 'sen0' ])",
+        		"lat": { ".validate": "newData.isNumber()"},
+        		"lon": { ".validate": "newData.isNumber()"},
+        		"sen0": { ".validate": "newData.isNumber()"}
+          }
+        },
+       "$otherKey": {
+        	".write": false
+      	} 
+      }},
+      "$otherKey": {
+        ".write": false
+      }
+    }},
+
+    "measurements": {
+      ".write": "auth !== null && auth.provider === 'anonymous'",
+      ".indexOn": ["timestamp", "pigeon"],
+      "$measurementKey": {
+      	".validate": "newData.hasChildren(['timestamp', 'pigeon', 'lat', 'lon', 'sen0' ])",
+        "pigeon": { ".validate": "newData.isNumber() && newData.val().matches(/^[0-9]{1,2}$/)"},
+        "lat": { ".validate": "newData.isNumber()"},
+        "lon": { ".validate": "newData.isNumber()"},
+        "sen0": { ".validate": "newData.isNumber()"}
+      }
+    },
+
+    "$otherKey": {
+      ".write": false
+    }
+  }
+}
