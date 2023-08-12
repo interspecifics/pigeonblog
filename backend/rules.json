@@ -1,18 +1,26 @@
 {
   "rules": {
     ".read": "now < 1722470400000",
-    ".write": "auth !== null && auth.provider === 'anonymous'",
 
     "measurements": {
       ".write": "auth !== null && auth.provider === 'anonymous'",
       ".indexOn": ["timestamp", "pigeon"],
       "$measurementKey": {
-      	".validate": "newData.hasChildren(['timestamp', 'pigeon', 'lat', 'lon', 'sen0' ])",
-        "pigeon": { ".validate": "newData.isNumber() && newData.val().matches(/^[0-9]{1,2}$/)"},
-        "lat": { ".validate": "newData.isNumber()"},
-        "lon": { ".validate": "newData.isNumber()"},
-        "sen0": { ".validate": "newData.isNumber()"}
+        ".validate": "newData.hasChildren([ 'timestamp', 'pigeon', 'lat', 'lon', 'temp', 'pres', 'alti', 'NH3', 'OXI', 'RED' ])",
+        "x!x!x!pigeon": { ".validate": "newData.isNumber() && newData.val() > 0 && newData.val() < 20" },
+        "pigeon": { ".validate": "newData.isNumber()" },
+        "temp": { ".validate": "newData.isNumber()" },
+        "pres": { ".validate": "newData.isNumber()" },
+        "alti": { ".validate": "newData.isNumber()" },
+        "lat": { ".validate": "newData.isNumber()" },
+        "lon": { ".validate": "newData.isNumber()" },
+        "NH3": { ".validate": "newData.isNumber()" },
+        "OXI": { ".validate": "newData.isNumber()" },
+        "RED": { ".validate": "newData.isNumber()" }
       }
+    },
+    "$otherKey": {
+      ".write": false
     }
   }
 }
