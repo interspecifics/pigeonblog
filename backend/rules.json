@@ -6,10 +6,9 @@
       ".write": "auth !== null && auth.provider === 'anonymous'",
       ".indexOn": ["timestamp", "pigeon"],
       "$measurementKey": {
-        ".validate": "newData.hasChildren([ 'timestamp', 'pigeon', 'lat', 'lon', 'temp', 'pres', 'alti', 'NH3', 'OXI', 'RED' ])",
-        "x!x!x!pigeon": { ".validate": "newData.isNumber() && newData.val() > 0 && newData.val() < 20" },
+        ".validate": "newData.hasChildren([ 'timestamp', 'pigeon', 'temp', 'pres', 'alti', 'lat', 'lon', 'NH3', 'OXI', 'RED' ])",
         "pigeon": { ".validate": "newData.isNumber()" },
-        "temp": { ".validate": "newData.isNumber()" },
+        "temp": { ".validate": "newData.isNumber() && newData.val() > -100 && newData.val() < 1000" },
         "pres": { ".validate": "newData.isNumber()" },
         "alti": { ".validate": "newData.isNumber()" },
         "lat": { ".validate": "newData.isNumber()" },
