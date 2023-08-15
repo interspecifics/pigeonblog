@@ -1,3 +1,4 @@
 api_key.py
 .DS_*
 __pycache__
+*.code-workspace
