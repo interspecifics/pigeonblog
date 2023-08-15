@@ -10,9 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./frontend
 
     steps:
       - name: Checkout
@@ -20,15 +17,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install
-        run: npm install
-
-      - name: Build
-        run: npm run build
+      - name: npm (install + build)
+        working-directory: ./frontend
+        run: |
+          npm install
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAGES_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./frontend/build
           publish_branch: gh-pages
