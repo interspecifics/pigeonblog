@@ -18,6 +18,12 @@
         "RED": { ".validate": "newData.isNumber()" }
       }
     },
+
+    "sessions": {
+      ".write": "auth !== null && auth.provider === 'anonymous'",
+      "$sessionTimestamp": { ".validate": "$sessionTimestamp.matches(/^[0-9]+$/) && newData.isBoolean()" }
+    },
+
     "$otherKey": {
       ".write": false
     }
