@@ -21,7 +21,12 @@
 
     "sessions": {
       ".write": "auth !== null && auth.provider === 'anonymous'",
-      "$sessionTimestamp": { ".validate": "$sessionTimestamp.matches(/^[0-9]+$/) && newData.isBoolean()" }
+      "$sessionTimestamp": {
+        ".validate": "$sessionTimestamp.matches(/^[0-9]+$/) && newData.hasChildren([ 'loc', 'sensors', 'pigeons' ])",
+        "loc": { ".validate": "newData.hasChildren([ 'lat', 'lon' ])" },
+        "sensors": { ".validate": "newData.hasChildren([ 'NH3', 'OXI', 'RED' ])" },
+        "pigeons": { ".validate": "newData.child('0').exists()" }
+      }
     },
 
     "$otherKey": {
