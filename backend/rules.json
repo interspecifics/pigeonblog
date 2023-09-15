@@ -2,11 +2,27 @@
   "rules": {
     ".read": "now < 1722470400000",
 
-    "measurements": {
+    "_measurements_strict": {
       ".write": "auth !== null && auth.provider === 'anonymous'",
       ".indexOn": ["timestamp", "pigeon"],
       "$measurementKey": {
         ".validate": "newData.hasChildren([ 'timestamp', 'pigeon', 'temp', 'pres', 'alti', 'lat', 'lon', 'NH3', 'OXI', 'RED' ])",
+        "pigeon": { ".validate": "newData.isNumber()" },
+        "temp": { ".validate": "newData.isNumber() && newData.val() > -100 && newData.val() < 1000" },
+        "pres": { ".validate": "newData.isNumber()" },
+        "alti": { ".validate": "newData.isNumber()" },
+        "lat": { ".validate": "newData.isNumber()" },
+        "lon": { ".validate": "newData.isNumber()" },
+        "NH3": { ".validate": "newData.isNumber()" },
+        "OXI": { ".validate": "newData.isNumber()" },
+        "RED": { ".validate": "newData.isNumber()" }
+      }
+    },
+
+    "measurements": {
+      ".write": "auth !== null && auth.provider === 'anonymous'",
+      ".indexOn": ["timestamp", "pigeon"],
+      "$measurementKey": {
         "pigeon": { ".validate": "newData.isNumber()" },
         "temp": { ".validate": "newData.isNumber() && newData.val() > -100 && newData.val() < 1000" },
         "pres": { ".validate": "newData.isNumber()" },
