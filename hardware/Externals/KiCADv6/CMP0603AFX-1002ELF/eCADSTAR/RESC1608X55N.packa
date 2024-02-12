@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CMP0603AFX-1002ELF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-15-08:48:40)
+    (mountForm default
+        (footprintRef "RESC1608X55N")
+        (spec "System")
+    )
+)

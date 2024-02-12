@@ -1,0 +1,16 @@
+.TPSB686K010R0600 :1 ;AVX Electrolytic Capacitor 68F 10V dc Electrolytic Solid +/-10% Tolerance TPS Series
+CAPPM3528X210N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TPSB686K010R0600
+~!Mouser Part Number (581-TPSB686K010R0600)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSB686K010R0600)
+~!Manufacturer_Name (AVX)
+~!Manufacturer_Part_Number (TPSB686K010R0600)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/TPSB686K010R0600.pdf)
+~!Height (2.1mm)
+~!3D_Model (TPSB686K010R0600)
+TPSB686K010R0600
+1.1!U 2.1!U 

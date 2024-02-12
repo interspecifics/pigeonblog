@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\W\2307_pigeon\HW\PigeonMonitor\air_station_1v5\air_station_1v5.kicad_sch</source>
+    <date>10/19/2023 9:05:39 AM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>air_station_1v5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d8f9d8d-658b-4a0a-9ec0-bd36f8ed9dcd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7111b5a-6b24-40ac-8f1e-35013978f482</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>68uF-POLAR-EIA3528-10V-10%(TANT)</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:EIA3528</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="68UF-POLAR-EIA3528-10V-10%(TANT)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d7a88b6-3956-4861-8091-35de7dc5283f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b91f48b5-d6b3-4641-91e6-e2d94a6e8365</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dea65fb-6d44-48c4-a2ca-5a39f54f4436</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Adafruit ENS160:0805-NO</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>988b4a51-c4db-4384-bb84-557cb874af0a</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Adafruit ENS160:0805-NO</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33ed62d4-661f-4188-9e34-d1a86030471d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Adafruit ENS160:0805-NO</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb27d9ea-eaf0-47eb-82d3-c978fbbfcd43</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Adafruit ENS160:0603-NO</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9506724-1aae-4088-90ad-a192474780ab</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0390d064-9246-456e-bb92-b24b822da34f</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc902c08-d4ea-41b7-9fa1-cbaaaa7140b2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c57ab93-515c-4fb5-8107-591fe0d8f39f</tstamps>
+    </comp>
+    <comp ref="CHG1">
+      <value>ORANGE</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:D0603</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="007-LED0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a88f443d-d388-4887-9f67-b878fab82397</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_GPRS</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:LED-0603</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="LED'0603'" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8fac255-1bf7-4e2e-88b8-71b2442ef7ac</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_GPS</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:LED-0603</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="LED'0603'" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94f4ad54-5d6f-43c5-9591-039739267028</tstamps>
+    </comp>
+    <comp ref="GPS_ANTENNA1">
+      <value>ANTENNA-U-FL</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:4P-U-FL</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="ANTENNA-U-FL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8d63fbf-2036-44f8-8c8e-2c38b9c2ab12</tstamps>
+    </comp>
+    <comp ref="GSM_ANTENNA1">
+      <value>ANTENNA-U-FL</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:4P-U-FL</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="ANTENNA-U-FL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5d34f83-0f3e-46e7-8b79-bd226408295c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SIM7200-6-0-18-00-X_REVA</value>
+      <footprint>sim7200:GCT_SIM7200-6-0-18-00-X_REVA</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="Description">
+6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold
+</field>
+        <field name="MANUFACTURER">GCT</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="MP">SIM7200-6-0-18-00-A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SIM7200-6-0-18-00-X_REVA" part="SIM7200-6-0-18-00-X_REVA" description=""/>
+      <property name="MF" value="Global Connector Technology"/>
+      <property name="Description" value="&#xA;6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=snap"/>
+      <property name="MP" value="SIM7200-6-0-18-00-A"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="GCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a90c4fc4-ce6b-4aa3-b2fe-1b5055f4e28e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Micro_SD_Card</value>
+      <footprint>Connector_Card:microSD_HC_Molex_47219-2001</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Micro SD Card Socket"/>
+      <property name="ki_keywords" value="connector SD microsd"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a99726ac-5b53-47ed-bed1-ca88a42c8230</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BAT_PORT</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3dc1968-8d91-4e99-9c48-8fd504c56b23</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PROG_PORT</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95f6154f-5e24-47f7-b3e5-d568e79b6f3d</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>82nH</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:L0603</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="L'0603'" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5a2e5fa-303b-4e19-ac60-dda24ae0d6fc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14d222a6-643e-487b-8cc6-1babfd8011ab</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1cd500c-7093-4042-8acc-07f97a862a1b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>200K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fea865d-e2f5-4439-bd99-1e1706509710</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>780e8b07-bb9a-49fa-bd7e-c5ede354f720</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46caeedb-93a3-43f9-b05b-85243b708810</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c6f705-1578-41b8-bf40-1f56628d6676</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0191906a-fa88-4cde-95db-79a5e2532675</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447caffc-ec3c-4a7d-80eb-24a596fab0b0</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4254f59-ee81-4db1-8ff0-0372f420d424</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c09e2dc8-f1e8-4b69-bceb-ec0331504c07</tstamps>
+    </comp>
+    <comp ref="SW_POW1">
+      <value>POWER</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3be187d-7c77-457f-8a6e-73f89eac50c1</tstamps>
+    </comp>
+    <comp ref="SW_RST1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d2bbac1-ee46-43f5-a2fe-c852d2f75416</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>A9G</value>
+      <footprint>Maduino Zero A9G GPS Tracker v3.3:A9G</footprint>
+      <libsource lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="A9G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c28eb556-b35e-4bb8-9d33-a9769e38a43b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_description" value="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="ki_keywords" value="battery charger lithium"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8c8b346-5b54-476f-a5d5-344591817897</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>BMP388</value>
+      <footprint>footprints:QFN_BMP388_BOS</footprint>
+      <datasheet>BMP388</datasheet>
+      <libsource lib="2023-09-04_18-32-21" part="BMP388" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <property name="ki_keywords" value="BMP388"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36264d78-f8e3-4937-80bc-045767d7e320</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AP7312-1833</value>
+      <footprint>Adafruit ENS160:SOT23-6</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="VREG_SOT23-6_DUALAP7312" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c81c2d17-5d7d-48f6-9920-50e2aa2ec1a4</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MIC5225-3.3</value>
+      <footprint>Adafruit BMP388:SOT23-5</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="VREG_SOT23-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4001396-14fc-4208-9261-41412d61ab47</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>ENS160</value>
+      <footprint>Adafruit ENS160:ENS160</footprint>
+      <libsource lib="Adafruit ENS160-eagle-import" part="ENS160" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="air_station_1v5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1902e8e-3875-4315-9b6d-9f4e9742ada7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2023-09-04_18-32-21" part="BMP388">
+      <docs>BMP388</docs>
+      <footprints>
+        <fp>QFN_BMP388_BOS</fp>
+        <fp>QFN_BMP388_BOS-M</fp>
+        <fp>QFN_BMP388_BOS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMP388</field>
+        <field name="Footprint">QFN_BMP388_BOS</field>
+        <field name="Datasheet">BMP388</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCK" type="unspecified"/>
+        <pin num="3" name="VSS" type="power_out"/>
+        <pin num="4" name="SDI" type="unspecified"/>
+        <pin num="5" name="SDO" type="unspecified"/>
+        <pin num="6" name="CSB" type="unspecified"/>
+        <pin num="7" name="INT" type="unspecified"/>
+        <pin num="8" name="VSS" type="power_out"/>
+        <pin num="9" name="VSS" type="power_out"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit BMP388:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit BMP388:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit BMP388:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="VREG_SOT23-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit BMP388:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="bidirectional"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit ENS160:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit ENS160-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit ENS160:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit ENS160-eagle-import" part="ENS160">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">Adafruit ENS160:ENS160</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA/MOSI" type="input"/>
+        <pin num="2" name="SCL/SCK" type="input"/>
+        <pin num="3" name="A0/MISO" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="~{INT}" type="output"/>
+        <pin num="7" name="~{CS}" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit ENS160-eagle-import" part="VREG_SOT23-6_DUALAP7312">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit ENS160:SOT23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT2" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="EN2" type="bidirectional"/>
+        <pin num="4" name="EN1" type="bidirectional"/>
+        <pin num="5" name="VIN" type="bidirectional"/>
+        <pin num="6" name="VOUT1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73831-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="V_{SS}" type="power_in"/>
+        <pin num="3" name="V_{BAT}" type="power_out"/>
+        <pin num="4" name="V_{DD}" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/693072010801.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="007-LED0603">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:D0603</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="68UF-POLAR-EIA3528-10V-10%(TANT)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:EIA3528</field>
+      </fields>
+      <pins>
+        <pin num="A" name="+" type="passive"/>
+        <pin num="C" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="A9G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:A9G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I2C2_SCL" type="bidirectional"/>
+        <pin num="2" name="I2C2_SDA" type="bidirectional"/>
+        <pin num="3" name="SD_D3" type="bidirectional"/>
+        <pin num="4" name="SD_D2" type="bidirectional"/>
+        <pin num="5" name="SD_D1" type="bidirectional"/>
+        <pin num="6" name="SD_D0" type="bidirectional"/>
+        <pin num="7" name="SD_CMD" type="bidirectional"/>
+        <pin num="8" name="SD_CLK" type="bidirectional"/>
+        <pin num="9" name="PWRKEY" type="bidirectional"/>
+        <pin num="10" name="GND" type="bidirectional"/>
+        <pin num="11" name="VBAT" type="bidirectional"/>
+        <pin num="12" name="VBAT@1" type="bidirectional"/>
+        <pin num="13" name="SPK_P" type="bidirectional"/>
+        <pin num="14" name="SPK_N" type="bidirectional"/>
+        <pin num="15" name="ADC0" type="bidirectional"/>
+        <pin num="16" name="ADC1" type="bidirectional"/>
+        <pin num="17" name="VUSB" type="bidirectional"/>
+        <pin num="18" name="RESET" type="bidirectional"/>
+        <pin num="19" name="LCD_CS" type="bidirectional"/>
+        <pin num="20" name="LCD_RST" type="bidirectional"/>
+        <pin num="21" name="LCD_DIO" type="bidirectional"/>
+        <pin num="22" name="LCD_SDC" type="bidirectional"/>
+        <pin num="23" name="LCD_SCK" type="bidirectional"/>
+        <pin num="24" name="IO29" type="bidirectional"/>
+        <pin num="25" name="IO26" type="bidirectional"/>
+        <pin num="26" name="IO27" type="bidirectional"/>
+        <pin num="27" name="GND@1" type="bidirectional"/>
+        <pin num="28" name="GPS_RF" type="bidirectional"/>
+        <pin num="29" name="GND@2" type="bidirectional"/>
+        <pin num="30" name="IO28" type="bidirectional"/>
+        <pin num="31" name="IO30" type="bidirectional"/>
+        <pin num="32" name="IO25" type="bidirectional"/>
+        <pin num="33" name="MIC_N" type="bidirectional"/>
+        <pin num="34" name="MIC_P" type="bidirectional"/>
+        <pin num="35" name="USB_N" type="bidirectional"/>
+        <pin num="36" name="USB_P" type="bidirectional"/>
+        <pin num="37" name="HST_TXD" type="bidirectional"/>
+        <pin num="38" name="HST_RXD" type="bidirectional"/>
+        <pin num="39" name="SM0_DIO" type="bidirectional"/>
+        <pin num="40" name="VSM0" type="bidirectional"/>
+        <pin num="41" name="SM0_CLK" type="bidirectional"/>
+        <pin num="42" name="SM0_RST" type="bidirectional"/>
+        <pin num="43" name="VIO" type="bidirectional"/>
+        <pin num="44" name="GND@3" type="bidirectional"/>
+        <pin num="45" name="GPRS_RF" type="bidirectional"/>
+        <pin num="46" name="GND@4" type="bidirectional"/>
+        <pin num="47" name="UART2_RTS" type="bidirectional"/>
+        <pin num="48" name="UART2_CTS" type="bidirectional"/>
+        <pin num="49" name="UART2_RXD" type="bidirectional"/>
+        <pin num="50" name="UART2_TXD" type="bidirectional"/>
+        <pin num="51" name="UART1_RTS" type="bidirectional"/>
+        <pin num="52" name="UART1_CTS" type="bidirectional"/>
+        <pin num="53" name="UART1_RXD" type="bidirectional"/>
+        <pin num="54" name="UART1_TXD" type="bidirectional"/>
+        <pin num="55" name="GND@5" type="bidirectional"/>
+        <pin num="56" name="GND@6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="ANTENNA-U-FL">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:4P-U-FL</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="bidirectional"/>
+        <pin num="GND1" name="GND1" type="bidirectional"/>
+        <pin num="GND2" name="GND2" type="bidirectional"/>
+        <pin num="GND3" name="GND3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="L'0603'">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:L0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Maduino Zero A9G GPS Tracker v3.3-eagle-import" part="LED'0603'">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Maduino Zero A9G GPS Tracker v3.3:LED-0603</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SIM7200-6-0-18-00-X_REVA" part="SIM7200-6-0-18-00-X_REVA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SIM7200-6-0-18-00-X_REVA</field>
+        <field name="Footprint">SIM7200-6-0-18-00-X_REVA:GCT_SIM7200-6-0-18-00-X_REVA</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="Description">
+6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SIM7200-6-0-18-00-A/Global+Connector+Technology/view-part/?ref=snap</field>
+        <field name="MP">SIM7200-6-0-18-00-A</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="bidirectional"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP" type="power_in"/>
+        <pin num="C7" name="I/O" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2023-09-04_18-32-21">
+      <uri>D:/W/2307_pigeon/HW/PigeonMonitor/Externals/KiCADv6/2023-09-04_18-32-21.kicad_sym</uri>
+    </library>
+    <library logical="Adafruit BMP388-eagle-import">
+      <uri>D:/W/2307_pigeon/HW/PigeonMonitor/Externals/Adafruit-BMP3xx-PCB-master/Adafruit BMP388/Adafruit BMP388-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Adafruit ENS160-eagle-import">
+      <uri>D:/W/2307_pigeon/HW/PigeonMonitor/Externals/Adafruit-ENS160-PCB-main/kicad/Adafruit ENS160-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Maduino Zero A9G GPS Tracker v3.3-eagle-import">
+      <uri>D:/W/2307_pigeon/HW/PigeonMonitor/Externals/Maduino-Zero-A9G-master/Hardware/Maduino Zero A9G GPS Tracker v3.3/Maduino Zero A9G GPS Tracker v3.3-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="SIM7200-6-0-18-00-X_REVA">
+      <uri>D:/W/2307_pigeon/HW/PigeonMonitor/Externals/KiCADv6/SIM7200-6-0-18-00-X_REVA.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CHG1" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VUSB" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VBAT" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="VBAT@1" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="V_{BAT}" pintype="power_out"/>
+      <node ref="U7" pin="3" pinfunction="EN2" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="EN1" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="VIN" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="/ADC0">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/GPS_RF">
+      <node ref="GPS_ANTENNA1" pin="D" pinfunction="D" pintype="bidirectional"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GPS_RF" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/GSM_RF">
+      <node ref="GSM_ANTENNA1" pin="D" pinfunction="D" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="GPRS_RF" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/I2C2_SCL">
+      <node ref="U1" pin="1" pinfunction="I2C2_SCL" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="SCK" pintype="unspecified"/>
+      <node ref="X1" pin="2" pinfunction="SCL/SCK" pintype="input"/>
+    </net>
+    <net code="7" name="/I2C2_SDA">
+      <node ref="U1" pin="2" pinfunction="I2C2_SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="SDI" pintype="unspecified"/>
+      <node ref="X1" pin="1" pinfunction="SDA/MOSI" pintype="input"/>
+    </net>
+    <net code="8" name="/IO27">
+      <node ref="D1" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="IO27" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/IO28">
+      <node ref="D2" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="IO28" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/IO29">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="IO29" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PWR_KEY">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW_POW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PWRKEY" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RESET">
+      <node ref="SW_RST1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="RESET" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/SD_CLK">
+      <node ref="J2" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="SD_CLK" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/SD_CMD">
+      <node ref="J2" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="SD_CMD" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/SD_D0">
+      <node ref="J2" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="SD_D0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/SD_D1">
+      <node ref="J2" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="SD_D1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SD_D2">
+      <node ref="J2" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="SD_D2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SD_D3">
+      <node ref="J2" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="SD_D3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SIM_CLK">
+      <node ref="J1" pin="C3" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="41" pinfunction="SM0_CLK" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SIM_DATA">
+      <node ref="J1" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+      <node ref="U1" pin="39" pinfunction="SM0_DIO" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SIM_RST">
+      <node ref="J1" pin="C2" pinfunction="RST" pintype="input"/>
+      <node ref="U1" pin="42" pinfunction="SM0_RST" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/SIM_VDD">
+      <node ref="J1" pin="C1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="VSM0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/SIM_VPP_UNCONN">
+      <node ref="J1" pin="C6" pinfunction="VPP" pintype="power_in"/>
+    </net>
+    <net code="24" name="/UART_RX">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="UART1_RXD" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/UART_TX">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="UART1_TXD" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/VIN_BAT">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="A" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="27" name="/VIO">
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="VIO" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="1.8V">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="VOUT1" pintype="bidirectional"/>
+      <node ref="X1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="29" name="3.3V">
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VOUT2" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="OUT" pintype="power_in"/>
+      <node ref="X1" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="C" pinfunction="-" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="GPS_ANTENNA1" pin="GND1" pinfunction="GND1" pintype="bidirectional"/>
+      <node ref="GPS_ANTENNA1" pin="GND2" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="GPS_ANTENNA1" pin="GND3" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="GSM_ANTENNA1" pin="GND1" pinfunction="GND1" pintype="bidirectional"/>
+      <node ref="GSM_ANTENNA1" pin="GND2" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="GSM_ANTENNA1" pin="GND3" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="J1" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J2" pin="9" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW_POW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW_RST1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="27" pinfunction="GND@1" pintype="bidirectional"/>
+      <node ref="U1" pin="29" pinfunction="GND@2" pintype="bidirectional"/>
+      <node ref="U1" pin="44" pinfunction="GND@3" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="GND@4" pintype="bidirectional"/>
+      <node ref="U1" pin="55" pinfunction="GND@5" pintype="bidirectional"/>
+      <node ref="U1" pin="56" pinfunction="GND@6" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="V_{SS}" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U5" pin="8" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U5" pin="9" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(CHG1-Pad-)">
+      <node ref="CHG1" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad-)">
+      <node ref="D1" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad-)">
+      <node ref="D2" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(U3-PROG)">
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U3-STAT)">
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(U5-CSB)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CSB" pintype="unspecified"/>
+    </net>
+    <net code="37" name="Net-(X1-~{CS})">
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="7" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(U1-ADC0-Pad15)">
+      <node ref="U1" pin="15" pinfunction="ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-ADC1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U1-HST_RXD-Pad38)">
+      <node ref="U1" pin="38" pinfunction="HST_RXD" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U1-HST_TXD-Pad37)">
+      <node ref="U1" pin="37" pinfunction="HST_TXD" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-IO25-Pad32)">
+      <node ref="U1" pin="32" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-IO26-Pad25)">
+      <node ref="U1" pin="25" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U1-IO30-Pad31)">
+      <node ref="U1" pin="31" pinfunction="IO30" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-LCD_CS-Pad19)">
+      <node ref="U1" pin="19" pinfunction="LCD_CS" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-LCD_DIO-Pad21)">
+      <node ref="U1" pin="21" pinfunction="LCD_DIO" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-LCD_RST-Pad20)">
+      <node ref="U1" pin="20" pinfunction="LCD_RST" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-LCD_SCK-Pad23)">
+      <node ref="U1" pin="23" pinfunction="LCD_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U1-LCD_SDC-Pad22)">
+      <node ref="U1" pin="22" pinfunction="LCD_SDC" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U1-MIC_N-Pad33)">
+      <node ref="U1" pin="33" pinfunction="MIC_N" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U1-MIC_P-Pad34)">
+      <node ref="U1" pin="34" pinfunction="MIC_P" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U1-SPK_N-Pad14)">
+      <node ref="U1" pin="14" pinfunction="SPK_N" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U1-SPK_P-Pad13)">
+      <node ref="U1" pin="13" pinfunction="SPK_P" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U1-UART1_CTS-Pad52)">
+      <node ref="U1" pin="52" pinfunction="UART1_CTS" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-UART1_RTS-Pad51)">
+      <node ref="U1" pin="51" pinfunction="UART1_RTS" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U1-UART2_CTS-Pad48)">
+      <node ref="U1" pin="48" pinfunction="UART2_CTS" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U1-UART2_RTS-Pad47)">
+      <node ref="U1" pin="47" pinfunction="UART2_RTS" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(U1-UART2_RXD-Pad49)">
+      <node ref="U1" pin="49" pinfunction="UART2_RXD" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U1-UART2_TXD-Pad50)">
+      <node ref="U1" pin="50" pinfunction="UART2_TXD" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-USB_N-Pad35)">
+      <node ref="U1" pin="35" pinfunction="USB_N" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U1-USB_P-Pad36)">
+      <node ref="U1" pin="36" pinfunction="USB_P" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U5-INT-Pad7)">
+      <node ref="U5" pin="7" pinfunction="INT" pintype="unspecified"/>
+    </net>
+    <net code="63" name="unconnected-(U5-SDO-Pad5)">
+      <node ref="U5" pin="5" pinfunction="SDO" pintype="unspecified"/>
+    </net>
+    <net code="64" name="unconnected-(U9-P4-Pad4)">
+      <node ref="U9" pin="4" pinfunction="P4" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(X1-A0{slash}MISO-Pad3)">
+      <node ref="X1" pin="3" pinfunction="A0/MISO" pintype="output"/>
+    </net>
+    <net code="66" name="unconnected-(X1-~{INT}-Pad6)">
+      <node ref="X1" pin="6" pinfunction="~{INT}" pintype="output"/>
+    </net>
+  </nets>
+</export>

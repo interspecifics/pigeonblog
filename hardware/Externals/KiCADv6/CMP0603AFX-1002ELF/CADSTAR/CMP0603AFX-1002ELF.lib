@@ -1,0 +1,16 @@
+.CMP0603AFX-1002ELF :1 ;Thick Film Resistors - SMD 10K OHM 1% 1/4W TC100
+RESC1608X55N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CMP0603AFX-1002ELF
+~!Mouser Part Number (652-CMP0603AFX-1002L)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CMP0603AFX-1002ELF?qs=TiOZkKH1s2Q14lKL9rbzLg%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CMP0603AFX-1002ELF)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/CMP-A.pdf)
+~!Height (0.55mm)
+~!3D_Model (CMP0603AFX-1002ELF)
+CMP0603AFX-1002ELF
+1.1!U 2.1!U 

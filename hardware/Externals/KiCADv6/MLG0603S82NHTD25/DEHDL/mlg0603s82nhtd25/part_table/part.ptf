@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MLG0603S82NHTD25'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "MLG0603S82NHTD25" (!) = "", "MLG0603S", "Other", "", "", "SMD / SMT Inductors (Coils), L=82nH, L x W x T :", "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mlg0603s_en.pdf"
+END_PART
+
+END.

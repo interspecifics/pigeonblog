@@ -1,0 +1,16 @@
+.LQP03TN82NH02D :1 ;LQP03TN_02 Series Inductor 82nH +/-3% 0201 (0603)
+LQP03TG3N1B02D
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN LQP03TN82NH02D
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (LQP03TN82NH02D)
+~!Link Datasheet (https://psearch.en.murata.com/inductor/product/LQP03TN82NH02%23.html)
+~!Height (0.33mm)
+~!3D_Model (LQP03TN82NH02D)
+LQP03TN82NH02D
+1.1!U 2.1!U 

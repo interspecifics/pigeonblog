@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPSB686K010R0600"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-02-28-09:00:43)
+    (mountForm default
+        (footprintRef "CAPPM3528X210N")
+        (spec "System")
+    )
+)

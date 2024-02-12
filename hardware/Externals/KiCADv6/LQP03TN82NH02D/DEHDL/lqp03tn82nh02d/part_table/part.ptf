@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQP03TN82NH02D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQP03TN82NH02D" (!) = "", "LQP03TG3N1B02D", "Other", "", "", "LQP03TN_02 Series Inductor 82nH +/-3% 0201 (0603)", "https://psearch.en.murata.com/inductor/product/LQP03TN82NH02%23.html", "0.33 mm"
+END_PART
+
+END.

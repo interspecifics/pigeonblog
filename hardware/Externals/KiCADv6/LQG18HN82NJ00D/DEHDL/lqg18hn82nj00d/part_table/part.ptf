@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQG18HN82NJ00D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQG18HN82NJ00D" (!) = "", "LQM18PH1R0MFRL", "Other", "81-LQG18HN82NJ00D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG18HN82NJ00D?qs=V1L9lRAtZIvboq8xrE8%252BJA%3D%3D", "Murata LQQ18HN Series Wire-wound SMD Inductor 0.082 uH +/-5% 300mA Idc Q:12", "https://psearch.en.murata.com/inductor/product/LQG18HN82NJ00%23.html", "0.95 mm"
+END_PART
+
+END.

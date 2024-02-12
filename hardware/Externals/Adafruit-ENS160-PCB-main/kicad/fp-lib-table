@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit ENS160")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit ENS160.pretty")(options "")(descr ""))
+)

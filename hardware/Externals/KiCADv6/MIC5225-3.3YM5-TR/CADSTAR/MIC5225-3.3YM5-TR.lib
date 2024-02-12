@@ -1,0 +1,16 @@
+.MIC5225-3.3YM5-TR :1 ;MICROCHIP - MIC5225-3.3YM5-TR - LDO, REG, 16VIN, 0.15A, 3.3V, 2%, 5SOT23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="EN" 4="NC" 5="OUT"
+*MXP 5
+*DFN MIC5225-3.3YM5-TR
+~!Mouser Part Number (998-MIC5225-3.3YM5TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5225-3.3YM5-TR?qs=U6T8BxXiZAXmYJ5yRdN5%2Fg%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC5225-3.3YM5-TR)
+~!Link Datasheet (-)
+~!Height (1.45mm)
+~!3D_Model (MIC5225-3.3YM5-TR)
+MIC5225-3.3YM5-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

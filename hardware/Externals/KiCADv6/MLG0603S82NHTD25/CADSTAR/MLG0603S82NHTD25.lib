@@ -1,0 +1,16 @@
+.MLG0603S82NHTD25 :1 ;SMD / SMT Inductors (Coils), L=82nH, L x W x T :
+MLG0603S
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MLG0603S82NHTD25
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (MLG0603S82NHTD25)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mlg0603s_en.pdf)
+~!Height (-)
+~!3D_Model (MLG0603S82NHTD25)
+MLG0603S82NHTD25
+1.1!U 2.1!U 

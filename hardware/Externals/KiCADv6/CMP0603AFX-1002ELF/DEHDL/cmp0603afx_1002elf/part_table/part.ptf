@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CMP0603AFX_1002ELF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CMP0603AFX-1002ELF" (!) = "", "RESC1608X55N", "Resistor Chip", "652-CMP0603AFX-1002L", "https://www.mouser.co.uk/ProductDetail/Bourns/CMP0603AFX-1002ELF?qs=TiOZkKH1s2Q14lKL9rbzLg%3D%3D", "Thick Film Resistors - SMD 10K OHM 1% 1/4W TC100", "https://www.bourns.com/docs/Product-Datasheets/CMP-A.pdf", "0.55 mm"
+END_PART
+
+END.

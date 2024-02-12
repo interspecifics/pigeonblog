@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\W\2307_pigeon\HW\PigeonMonitor\Externals\Adafruit-BMP3xx-PCB-master\Adafruit BMP388\Adafruit BMP388\Adafruit BMP388.kicad_sch</source>
+    <date>10/3/2023 1:51:13 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Adafruit BMP388.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02f09e4d-8912-4109-bee0-7b84ea392acd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5214be1-f2b3-4856-8cf9-a804ed219aab</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Adafruit BMP388:0805-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ceee1c0-c7ed-4c98-81cc-b286c4df57db</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Adafruit BMP388:SOD-323</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="DIODESOD-323" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f0c3f29-7e84-4332-abbf-3ba909873265</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>BMP388</value>
+      <footprint>Adafruit BMP388:BMP388</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="BMP388" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>693a7e9e-d32e-461f-8cd0-dae311ef86c0</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>HEADER-1X870MIL</value>
+      <footprint>Adafruit BMP388:1X08_ROUND_70</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="HEADER-1X870MIL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>965f6b90-5f62-494e-9719-134cd19a5700</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002D</value>
+      <footprint>Adafruit BMP388:SOT363</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="MOSFET-N_DUAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4665401-8a76-4db2-8f99-01a6e126e356 d27f4b47-77a7-4362-9338-d5987eec7d2b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1c2216b-1f66-405f-b6ae-2f51e64ea15b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:RESPACK_4X0603</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_4PACK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7a98098-0853-4da4-8a86-a5222cc822ab e04d6a9f-38dc-4cde-98a5-c84ed5f70e5f 724cf9f2-e444-47d2-a8fe-73aedd893a3d 1f369636-ffd3-4e66-bc14-ea9d381be64f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Adafruit BMP388:0603-NO</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4828b0e-aab5-4c10-a78a-d882c7d8a5e9</tstamps>
+    </comp>
+    <comp ref="U$5">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Adafruit BMP388:FIDUCIAL_1MM</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="FIDUCIAL_1MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2221b208-096a-4a3b-860b-6f3c31c1a716</tstamps>
+    </comp>
+    <comp ref="U$7">
+      <value>MOUNTINGHOLE2.0</value>
+      <footprint>Adafruit BMP388:MOUNTINGHOLE_2.0_PLATED</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="MOUNTINGHOLE2.0" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b49a4e9d-4678-4cd1-991e-8f6bd690cf22</tstamps>
+    </comp>
+    <comp ref="U$8">
+      <value>MOUNTINGHOLE2.0</value>
+      <footprint>Adafruit BMP388:MOUNTINGHOLE_2.0_PLATED</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="MOUNTINGHOLE2.0" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfbefa2c-03af-4722-8fc4-9a4740510f5c</tstamps>
+    </comp>
+    <comp ref="U$15">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Adafruit BMP388:FIDUCIAL_1MM</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="FIDUCIAL_1MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebfbadd8-ab2f-46f2-bfd2-3f9a95e60248</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5225-3.3</value>
+      <footprint>Adafruit BMP388:SOT23-5</footprint>
+      <libsource lib="Adafruit BMP388-eagle-import" part="VREG_SOT23-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit BMP388.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4db86d99-8b90-4399-9090-09c6bb7a5ee8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit BMP388-eagle-import" part="BMP388">
+      <fields>
+        <field name="Footprint">Adafruit BMP388:BMP388</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="SDO" type="output"/>
+        <pin num="6" name="CSB" type="input"/>
+        <pin num="7" name="INT" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit BMP388:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit BMP388:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="DIODESOD-323">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Adafruit BMP388:SOD-323</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="FIDUCIAL_1MM">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Footprint">Adafruit BMP388:FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="HEADER-1X870MIL">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">Adafruit BMP388:1X08_ROUND_70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="MOSFET-N_DUAL">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">Adafruit BMP388:SOT363</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="bidirectional"/>
+        <pin num="2" name="G" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+        <pin num="4" name="S" type="bidirectional"/>
+        <pin num="5" name="G" type="bidirectional"/>
+        <pin num="6" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="MOUNTINGHOLE2.0">
+      <fields>
+        <field name="Footprint">Adafruit BMP388:MOUNTINGHOLE_2.0_PLATED</field>
+      </fields>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit BMP388:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="RESISTOR_4PACK">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit BMP388:RESPACK_4X0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit BMP388-eagle-import" part="VREG_SOT23-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit BMP388:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="bidirectional"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit BMP388-eagle-import">
+      <uri>D:\W\2307_pigeon\HW\PigeonMonitor\Externals\Adafruit-BMP3xx-PCB-master\Adafruit BMP388\Adafruit BMP388/Adafruit BMP388-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CS">
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="JP1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="2" name="/CS_3V">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="CSB" pintype="input"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/INT">
+      <node ref="IC1" pin="7" pinfunction="INT" pintype="output"/>
+      <node ref="JP1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCK_3V">
+      <node ref="IC1" pin="2" pinfunction="SCK" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R3" pin="7" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/SCK{slash}SCL">
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R3" pin="8" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/SDI_3V">
+      <node ref="IC1" pin="4" pinfunction="SDI" pintype="input"/>
+      <node ref="Q1" pin="4" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R3" pin="5" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/SDI{slash}SDA">
+      <node ref="JP1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R3" pin="6" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/SDO{slash}ADR">
+      <node ref="IC1" pin="5" pinfunction="SDO" pintype="output"/>
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="3.3V">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="IC1" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q1" pin="5" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="4" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="power_in"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="VIN">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(U2-P4-Pad4)">
+      <node ref="U2" pin="4" pinfunction="P4" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

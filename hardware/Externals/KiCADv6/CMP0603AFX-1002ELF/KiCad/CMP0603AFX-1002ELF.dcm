@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMP0603AFX-1002ELF
+D Thick Film Resistors - SMD 10K OHM 1% 1/4W TC100
+K
+F https://www.bourns.com/docs/Product-Datasheets/CMP-A.pdf
+$ENDCMP
+#
+#End Doc Library

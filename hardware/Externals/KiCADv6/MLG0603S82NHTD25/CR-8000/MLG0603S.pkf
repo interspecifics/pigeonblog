@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MLG0603S"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MLG0603S")
+        (spec "default")
+    )
+)

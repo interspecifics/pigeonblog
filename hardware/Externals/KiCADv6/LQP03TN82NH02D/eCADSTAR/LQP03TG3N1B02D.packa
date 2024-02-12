@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LQP03TN82NH02D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-17-07:59:10)
+    (mountForm default
+        (footprintRef "LQP03TG3N1B02D")
+        (spec "System")
+    )
+)

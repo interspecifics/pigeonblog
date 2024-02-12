@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPSB686K010R0600'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AVX", "TPSB686K010R0600" (!) = "", "CAPPM3528X210N", "Capacitor Moulded Polarised", "581-TPSB686K010R0600", "https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSB686K010R0600", "AVX Electrolytic Capacitor 68F 10V dc Electrolytic Solid +/-10% Tolerance TPS Series", "https://componentsearchengine.com/Datasheets/1/TPSB686K010R0600.pdf", "2.1 mm"
+END_PART
+
+END.

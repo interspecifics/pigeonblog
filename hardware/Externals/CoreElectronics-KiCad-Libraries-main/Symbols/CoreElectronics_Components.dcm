@@ -1,0 +1,65 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAP1203
+D 3-Channel Capacitive Touch Sensor
+K 3 Channel Capacitive Touch Sensor
+F https://ww1.microchip.com/downloads/en/DeviceDoc/00001572B.pdf
+$ENDCMP
+#
+$CMP Conn_PiicoDev_header_01x04_Male
+D connector, single row, with PiicoDev pin labels
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PiicoDev_header_01x05_Male_INT
+D connector, single row, with PiicoDev pin labels
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PiicoDev_socket
+D connector, single row, with PiicoDev pin labels
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PiicoDev_socket_UPDI
+D connector, single row, with PiicoDev pin labels
+K connector
+F ~
+$ENDCMP
+#
+$CMP Display_Graphic_OLED_SSD1306_30-Pin
+D 30-Pin OLED Graphic Display with SSD1306 Controller
+$ENDCMP
+#
+$CMP LED_GlowBit_WS2812B_v5
+D RGB LED with integrated controller
+K RGB LED GlowBit addressable
+$ENDCMP
+#
+$CMP MFRC522
+D Standard performance MIFARE and NTAG frontend
+K RFID, NFC
+F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+$ENDCMP
+#
+$CMP MS5637
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5637-02BA03&DocType=Data+Sheet&DocLang=English
+$ENDCMP
+#
+$CMP QMC6310
+F https://datasheet.lcsc.com/lcsc/2007101835_QST-QMC6310U_C669299.pdf
+$ENDCMP
+#
+$CMP RV-3028-C7_32.768kHz_1ppm_TA_QC
+D Real Time Clock 32.768kHz I2C Time Acc. 1ppm
+F https://www.mouser.de/datasheet/2/530/RV_3028_C7-1524919.pdf
+$ENDCMP
+#
+$CMP VEML6040
+F https://www.vishay.com/docs/84276/veml6040.pdf
+$ENDCMP
+#
+#End Doc Library
