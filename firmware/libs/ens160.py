@@ -287,6 +287,22 @@ class DFRobot_ENS160:
         buf = self._read_reg(ENS160_DATA_ECO2_REG, 2)
         return ((buf[1] << 8) | buf[0])
 
+    def _get_R4_raw(self):
+        '''!
+          @brief Get value of GPR_READ[6:7], which corresponds to raw resistance value of gas sensor
+          @return Return value range: 0-65535, unit: none
+        '''
+        buf = self._read_reg(ENS160_GPR_READ_REG, 8)
+        return ((buf[7] << 8) | buf[6])
+
+    @property
+    def get_R4_res(self):
+        '''!
+          @brief Get resistance value of gas sensor
+          @return Return value range: 0 - 4294967295, unit: ohms (?)
+        '''
+        return 2 ** (self._get_R4_raw() / 2048)
+
     def _get_MISR(self):
         '''!
           @brief Get the current crc check code of the sensor
