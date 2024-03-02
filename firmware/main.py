@@ -35,12 +35,10 @@ def pmap(x, in_min, in_max, out_min, out_max):
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 
 def cropmap(x, in_min, in_max, out_min, out_max):
-    ress = 0
-    if x>=in_min and x<=in_max:
-        ress = (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
-    elif x<in_min:
-        ress = 0
-    elif x>in_max:
+    ress = (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+    if x < in_min:
+        ress = out_min
+    elif x > in_max:
         ress = out_max
     return ress
 
@@ -271,10 +269,5 @@ while(1):
         
 gps.off()
 i2c.close(2)
-
-
-
-
-
 
 #assert rsp == b'HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n'
