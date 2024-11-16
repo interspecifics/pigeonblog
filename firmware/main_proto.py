@@ -68,8 +68,7 @@ def sms_handler(evt):
 
 
 # ---------------------- strings
-#API_KEY = "AAAAAAAAABBBBBBBBDDDDDDDDD$$$$$$$$$$HH"
-API_KEY = "AIzaSyD7PKf4dyLQv0QeR_VuB6nNZBBecSZWPzw"
+API_KEY = "AAAAAAAAABBBBBBBBDDDDDDDDD$$$$$$$$$$HH"
 #
 DB_URL = "https://pigeonblog-db-default-rtdb.firebaseio.com"
 AUTH_URL = "https://identitytoolkit.googleapis.com/v1/accounts:signUp"
