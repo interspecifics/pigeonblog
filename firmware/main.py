@@ -69,11 +69,11 @@ def sms_handler(evt):
 
 # ---------------------- strings
 #API_KEY = "AAAAAAAAABBBBBBBBDDDDDDDDD$$$$$$$$$$HH"
-API_KEY = "AIzaSyD7PKf4dyLQv0QeR_VuB6nNZBBecSZWPzw"
+
 #
 DB_URL = "https://pigeonblog-db-default-rtdb.firebaseio.com"
 AUTH_URL = "https://identitytoolkit.googleapis.com/v1/accounts:signUp"
-XY_URL = "http://rraaddiioo.ddns.net:8081"
+#XY_URL = "http://rraaddiioo.ddns.net:8081"
 #
 pigeon_id = 9999
 sesion_id = urandom.randint(10, 10000)
@@ -196,19 +196,9 @@ while(1):
         print("[gps_loc]: %s" % str(gps_loc))
         print("[gps_sats]: %s" % str(gps_sat))
         f_it(3)
-        # --- report sms
-        #cellular.SMS("+522222048162", msg[:100]).send()
-        #time.sleep(5)
-        #cellular.SMS("+522222048162", msg2[:100]).send()  
+
         # ---> send to server
         try:
-            #flat schema
-            #te = urandom.uniform(20.1, 23.2)
-            #pr = urandom.uniform(28.9212, 29.9312)
-            #alti = urandom.uniform(2120.00, 2220.00)
-            #c1 = urandom.uniform(0.01, 2.00)
-            #c2 = urandom.uniform(0.10, 2.00)
-            #c3 = urandom.uniform(0.01, 2.00)
             sensors = { "sen{}".format(i): 6.6 for i in range(8) }
             datapack = {
               "timestamp": {".sv": "timestamp"},
@@ -245,8 +235,8 @@ while(1):
             post_url = "{}/measurements.json?auth={}".format(DB_URL, token)
             res = requests.post(post_url, json=datapack)
             print(res.text)
-            res = requests.post(XY_URL, json=datapack)
-            print(res.text)
+            #res = requests.post(XY_URL, json=datapack)
+            #print(res.text)
             conn = cellular.gprs(False)
             f_it(5)
             print("[GPRS] off")
